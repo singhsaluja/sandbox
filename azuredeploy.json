@@ -152,7 +152,7 @@
             "plan": "[variables('NodePlanReference')]",
             "properties": {
                 "hardwareProfile": {
-                    "vmSize": "Standard_F2s"
+                    "vmSize": "Standard_B1s"
                 },
                 "storageProfile": {
                     "imageReference": "[variables('NodeimageReference')]",
@@ -230,7 +230,7 @@
             "plan": "[variables('NodePlanReference')]",
             "properties": {
                 "hardwareProfile": {
-                    "vmSize": "Standard_F2s"
+                    "vmSize": "Standard_B4ms"
                 },
                 "storageProfile": {
                     "imageReference": "[variables('NodeimageReference')]",
@@ -353,7 +353,7 @@
             "plan": "[variables('NodePlanReference')]",
             "properties": {
                 "hardwareProfile": {
-                    "vmSize": "Standard_F2s"
+                    "vmSize": "Standard_B1s"
                 },
                 "storageProfile": {
                     "imageReference": "[variables('NodeimageReference')]",
